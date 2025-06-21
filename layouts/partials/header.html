@@ -26,7 +26,7 @@
 	{{- with .Site.Params.Header.Blogo -}}
 	<div id="blogo">
 		{{- $blogoLink := (resources.Get .).RelPermalink -}}
-		<a href="{{ site.BaseURL }}" target="_blank">
+		<a href="{{ site.BaseURL }}">
 		<img alt="blogo" src="{{ $blogoLink }}"/>
 		</a>
 	</div>
