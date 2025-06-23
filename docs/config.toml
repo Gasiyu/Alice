@@ -2,7 +2,6 @@ languageCode = "en-US"
 hasCJKLanguage = true
 title = "Hugo Alice"
 theme = "Alice"
-themesDir = "../.."
 
 # Alice parameters
 [params]
