@@ -24,6 +24,9 @@ codeblock:
     cursed: true
 card:
   thumbnail: "cover.jpeg"
+featuredimage:
+  src: "cover.jpeg"
+  title: "Featured Image Title"
 ---
 
 ## Tabs
