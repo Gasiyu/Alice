@@ -15,7 +15,7 @@
 <div class="post-card {{ $layout }}">
 	{{- with $thumb -}}
     <div class="post-thumb-container">
-		<a class="post-thumb-anchor" href="{{ .RelPermalink }}">
+		<a class="post-thumb-anchor" href="{{ $.RelPermalink }}">
         <img class="post-thumb" src="{{ .RelPermalink }}" loading="lazy"/>
 		</a>
 	</div>
