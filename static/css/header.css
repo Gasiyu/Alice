@@ -14,7 +14,7 @@
 
 @media screen and (max-width: 1440px) {
     :root {
-        --header-height: 2.5rem;
+        --header-height: 3.75rem;
         --title-font-size: 1rem;
         --tagline-font-size: 0.8rem;
         --menu-font-size: 1rem;
@@ -62,7 +62,7 @@ div#blogo {
     float: left;
 }
 div#blogo a img {
-    margin: 0 auto;
+    margin-left: 1em;
     max-width: 144px;
     max-height: var(--header-height);
     height: auto;
@@ -206,12 +206,21 @@ div.hamburger-menu-item {
 
 
 @media screen and (max-width: 720px) {
+
+    div#blogo {
+        float: none;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
     header {
         justify-content: space-between;
     }
 
     div#bio {
         margin: 0 0 0 1ch;
+        display: none;
     }
 
     header#header-with-toc div#bio {
@@ -228,5 +237,11 @@ div.hamburger-menu-item {
 
     label#hamburger-btn-icon-wrapper {
         display: flex;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    div#bio {
+        display: none;
     }
 }
