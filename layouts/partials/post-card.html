@@ -30,6 +30,9 @@
 			"metaItemSep" ""
 		) -}}
 		{{- partial "post-tldr.html" . -}}
+		{{- with .Description -}}
+			<p class="post-description">{{ . | markdownify | safeHTML }}</p>
+		{{- end -}}
 		<a class="post-read-more" href="{{ .Permalink }}">Read more >>></a>
 	</div>
 </div>
