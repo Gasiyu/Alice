@@ -1,6 +1,6 @@
 ---
 title: "Alice (3): Authoring Shortcodes"
-description: ""
+description: "Authoring Shortcodes"
 keywords: []
 date: 2024-10-04T00:09:24+08:00
 lastmod: 2024-10-20T12:28:15+08:00
@@ -22,6 +22,8 @@ tab:
 codeblock:
     highlight: true
     cursed: true
+card:
+  thumbnail: "cover.jpeg"
 ---
 
 ## Tabs
