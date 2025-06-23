@@ -70,7 +70,7 @@ fieldset.home-sidebar-item > div.home-sidebar-item-content {
 }
 
 legend.home-sidebar-item-title {
-    font-family: var(--serif-font);
+    font-family: var(--sans-font);
     font-size: var(--h4-font-size);
     font-weight: bold;
 
@@ -90,7 +90,7 @@ fieldset#recent-updates > div.home-sidebar-item-content > ul {
 }
 
 #news {
-    font-family: var(--serif-font);
+    font-family: var(--sans-font);
 }
 
 /* Author sidebar component styles */
@@ -99,7 +99,7 @@ fieldset#recent-updates > div.home-sidebar-item-content > ul {
     flex-direction: column;
     align-items: center;
     padding: 1em;
-    font-family: var(--serif-font);
+    font-family: var(--sans-font);
 }
 
 #author .h-card .u-photo {
@@ -176,7 +176,7 @@ div.post-card {
     margin: 0;
     padding: 0;
 
-    font-family: var(--serif-font);
+    font-family: var(--sans-font);
     border: 2px solid var(--post-card-border-color);
     border-radius: .3em;
     box-shadow: .1em .1em .3em var(--post-card-shadow-color);
